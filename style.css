@@ -4,6 +4,10 @@
   padding: 0;
 }
 
+:root {
+  --main-color: purple;
+}
+
 *::selection {
   background: purple;
   color: black;
@@ -59,7 +63,7 @@ li:hover {
 }
 
 li:hover a {
-  color: rebeccapurple;
+  color: var(--main-color);
 }
 
 .card {
@@ -67,8 +71,8 @@ li:hover a {
   height: 350px;
   width: 250px;
   background-color: black;
-  border-bottom: 5px solid purple;
-  border-right: 5px solid purple;
+  border-bottom: 5px solid var(--main-color);
+  border-right: 5px solid var(--main-color);
   border-radius: 10px;
   display: flex;
   justify-content: space-between;
@@ -110,7 +114,7 @@ li:hover a {
 }
 
 .pic {
-  background-image: linear-gradient(45deg ,black,black, red, black,black);
+  background-image: linear-gradient(45deg ,black,black, var(--main-color), black,black);
   width: 100%;
   height: 700px;
   height: 100vh;
