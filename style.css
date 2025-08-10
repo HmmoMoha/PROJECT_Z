@@ -9,7 +9,7 @@
 }
 
 *::selection {
-  background: purple;
+  background: var(--main-color);
   color: black;
 }
 
