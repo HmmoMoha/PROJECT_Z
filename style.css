@@ -6,7 +6,7 @@
 
 :root {
   --main-color: #03A9F4;
-  --back-color: black;
+  --back-color: white;
 }
 
 *::selection {
